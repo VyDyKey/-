@@ -1,0 +1,76 @@
+body{
+  margin:0 auto;
+  width: 300px;
+}
+
+.block{
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  width: 180px;
+}
+
+.deti{
+  background-color: white;
+}
+
+.deti:focus{
+  background-color: aqua;
+}
+
+.pol{
+  background-color: white;
+}
+
+.pol:focus{
+  background-color: aqua;
+}
+
+.button{
+  margin:10px 0;
+  outline: none;
+  border: none;
+  background: white;
+}
+
+.modal, .modal-s1, .modal-s2, .modal-s3, .modal-p1,.modal-p2,.modal-p3,.modal-p4, .modal-d1, .modal-d2, .modal-d3,.modal-d4, .modal-r1,.modal-r2,.modal-r3,.modal-r4,.modal-e1,.modal-e2,.modal-e3,.modal-e4,.modal-di1,.modal-di2,.modal-di3,.modal-di4,.modal-n1,.modal-n2,.modal-n3,.modal-n4,.modal-sp1,.modal-sp2,.modal-sp3,.modal-sp4 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content, .modal-content-s1, .modal-content-s2, .modal-content-s3,.modal-content-p1,.modal-content-p2,.modal-content-p3,.modal-content-p4,.modal-content-d1,.modal-content-d2,.modal-content-d3,.modal-content-d4,.modal-content-r1,.modal-content-r2,.modal-content-r3,.modal-content-r4,.modal-content-di1,.modal-content-di2,.modal-content-di3,.modal-content-di4,.modal-content-e1,.modal-content-e2,.modal-content-e3,.modal-content-e4,.modal-content-n1,.modal-content-n2,.modal-content-n3,.modal-content-n4,.modal-content-sp1,.modal-content-sp2,.modal-content-sp3,.modal-content-sp4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 2rem;
+  width: 550px;
+  border: solid 1px #000000;
+}
+.close-button,.close-button-s1, .close-button-s2,.close-button-s3,.close-button-p1, .close-button-p2,.close-button-p3,.close-button-p4,.close-button-d1,.close-button-d2,.close-button-d3,.close-button-d4,.close-button-r1,.close-button-r2,.close-button-r3,.close-button-r4,.close-button-di1,.close-button-di2,.close-button-di3,.close-button-di4,.close-button-e1,.close-button-e2,.close-button-e3,.close-button-e4,.close-button-n1,.close-button-n2,.close-button-n3,.close-button-n4,.close-button-sp1,.close-button-sp2,.close-button-sp3,.close-button-sp4 {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: rgb(255, 255, 255);
+  padding-left: 0;
+}
+.close-button:hover{
+  background-color: darkgray;
+}
+.show-modal,.show-modal-s1,.show-modal-s2,.show-modal-s3, .show-modal-p1,.show-modal-p2,.show-modal-p3,.show-modal-p4,.show-modal-d1,.show-modal-d2,.show-modal-d3,.show-modal-d4,.show-modal-r1,.show-modal-r2,.show-modal-r3,.show-modal-r4,.show-modal-di1,.show-modal-di2,.show-modal-di3,.show-modal-di4,.show-modal-e1,.show-modal-e2,.show-modal-e3,.show-modal-e4,.show-modal-n1,.show-modal-n2,.show-modal-n3,.show-modal-n4,.show-modal-sp1,.show-modal-sp2,.show-modal-sp3,.show-modal-sp4 {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1.0);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
